@@ -6,17 +6,17 @@
   --color-text-light: #555;
   --color-white: #fff;
   --color-accent: #e63946;
-  
+
   /* Spacing variables */
   --spacing-xs: 10px;
   --spacing-sm: 15px;
   --spacing-md: 20px;
   --spacing-lg: 40px;
-  
+
   /* Shadow */
   --shadow-default: 0 4px 8px rgba(0, 0, 0, 0.1);
   --shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.15);
-  
+
   /* Border radius */
   --radius: 8px;
 }
@@ -29,7 +29,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   background-color: var(--color-background);
@@ -38,7 +38,9 @@ body {
 }
 
 /* Typography */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--color-text);
   margin-bottom: var(--spacing-md);
   font-weight: 600;
@@ -56,7 +58,7 @@ h2 {
 }
 
 h2::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -103,7 +105,7 @@ nav ul li a {
 }
 
 nav ul li a::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -147,8 +149,8 @@ section:not(#home) {
 
 /* Home section */
 #home {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-              url('/placeholder.svg?height=1080&width=1920') no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/placeholder.svg?height=1080&width=1920")
+    no-repeat center center / cover;
   color: var(--color-white);
   text-align: center;
   padding-top: 120px;
@@ -186,6 +188,8 @@ section:not(#home) {
   display: flex;
   flex-direction: column;
   height: 100%;
+  width: 100%; /* Ensure full width within the grid cell */
+  max-width: 100%; /* Prevent overflow */
 }
 
 .card:hover {
@@ -199,6 +203,7 @@ section:not(#home) {
   object-fit: cover;
   border-radius: var(--radius);
   margin-bottom: var(--spacing-sm);
+  object-position: center top; /* Focus on the upper part of the image (usually the face) */
 }
 
 .card h3 {
@@ -222,19 +227,19 @@ section:not(#home) {
 }
 
 /* Special case for last card in odd-numbered grids */
-.card-container:has(.card:last-child:nth-child(4n+1)) .card:last-child {
-  grid-column: span 4;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+.card-container:has(.card:last-child:nth-child(4n + 1)) .card:last-child {
+  grid-column: auto; /* Remove span */
+  max-width: none; /* Remove max-width restriction */
+  margin-left: 0;
+  margin-right: 0;
 }
 
-.card-container:has(.card:last-child:nth-child(4n+2)) .card:last-child {
-  grid-column: span 2;
+.card-container:has(.card:last-child:nth-child(4n + 2)) .card:last-child {
+  grid-column: auto; /* Remove span */
 }
 
-.card-container:has(.card:last-child:nth-child(4n+3)) .card:last-child {
-  grid-column: span 3;
+.card-container:has(.card:last-child:nth-child(4n + 3)) .card:last-child {
+  grid-column: auto; /* Remove span */
 }
 
 /* Footer */
@@ -250,21 +255,11 @@ section:not(#home) {
   .card-container {
     grid-template-columns: repeat(3, 1fr);
   }
-  
-  /* Reset special cases for 3-column layout */
-  .card-container:has(.card:last-child:nth-child(4n+1)) .card:last-child,
-  .card-container:has(.card:last-child:nth-child(4n+2)) .card:last-child,
-  .card-container:has(.card:last-child:nth-child(4n+3)) .card:last-child {
+
+  /* Reset all special cases */
+  .card-container:has(.card:last-child:nth-child(3n + 1)) .card:last-child {
     grid-column: auto;
     max-width: none;
-  }
-  
-  /* New special cases for 3-column layout */
-  .card-container:has(.card:last-child:nth-child(3n+1)) .card:last-child {
-    grid-column: span 3;
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -272,17 +267,17 @@ section:not(#home) {
   .card-container {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   /* Reset special cases for 2-column layout */
-  .card-container:has(.card:last-child:nth-child(3n+1)) .card:last-child {
+  .card-container:has(.card:last-child:nth-child(3n + 1)) .card:last-child {
     grid-column: auto;
     max-width: none;
   }
-  
+
   #home h1 {
     font-size: 2rem;
   }
-  
+
   #home p {
     font-size: 1rem;
   }
@@ -292,21 +287,22 @@ section:not(#home) {
   header {
     padding: var(--spacing-xs) 0;
   }
-  
+
   nav ul {
     flex-direction: column;
     gap: var(--spacing-xs);
   }
-  
+
   section {
     padding: var(--spacing-md) 0;
   }
-  
+
   .card-container {
     grid-template-columns: 1fr;
   }
-  
+
   .card img {
     height: 180px;
   }
 }
+

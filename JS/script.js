@@ -71,7 +71,7 @@ function displayCalendar(tracks) {
     card.classList.add("card");
     card.innerHTML = `
             <h3>${name}</h3>
-            <img src="images/${name}.jpg" alt="${name}" class="track-image" />
+            <img src="${name}.jpg" alt="${name}" class="track-image" />
             <p><strong>Location:</strong> ${location}</p>
             <p><strong>Data:</strong> ${date}</p>
         `;
