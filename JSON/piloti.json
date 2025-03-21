@@ -3,112 +3,62 @@
     {
       "name": "Matteo Bianchi",
       "description": "Pilota aggressivo e talentuoso, noto per il suo stile di guida spigoloso e la sua grande capacità nei sorpassi.",
-      "team": "Ducati Lenovo Team 🏁🔴"
+      "team": "Ducati Lenovo Team 🏁🔴",
+      "image": "matteo_bianchi.jpg"
     },
     {
       "name": "Alessandro Rinaldi",
       "description": "Cresciuto sulle minimoto, ha uno stile fluido e una guida molto pulita. Specialista delle curve veloci.",
-      "team": "Aprilia Racing ⚫🔴"
+      "team": "Aprilia Racing ⚫🔴",
+      "image": "alessandro_rinaldi.jpg"
     },
     {
       "name": "Lorenzo De Santis",
       "description": "Pilota dal carattere forte, ama le battaglie in pista ed è noto per la sua resistenza nelle gare lunghe.",
-      "team": "Yamaha Monster Energy 🔵⚫"
+      "team": "Yamaha Monster Energy 🔵⚫",
+      "image": "lorenzo_de_santis.jpg"
     },
     {
       "name": "Riccardo Ferrara",
       "description": "Un talento emergente che ha impressionato tutti nelle categorie minori con il suo controllo in condizioni di pioggia.",
-      "team": "Ducati Pramac Racing 🔴💜"
+      "team": "Ducati Pramac Racing 🔴🔍",
+      "image": "riccardo_ferrara.jpg"
     },
     {
       "name": "Davide Montanari",
       "description": "Tecnico e preciso, studia ogni dettaglio della moto per ottenere il massimo delle prestazioni.",
-      "team": "KTM Red Bull Factory Racing 🟠🔵"
+      "team": "KTM Red Bull Factory Racing 🥚🔵",
+      "image": "davide_montanari.jpg"
     },
     {
       "name": "Marco Ghisolfi",
       "description": "Pilota molto spettacolare, ama le staccate al limite e non ha paura di rischiare per guadagnare posizioni.",
-      "team": "Gresini Racing MotoGP 🔵⚪"
+      "team": "Gresini Racing MotoGP 🔵⚪",
+      "image": "marco_ghisolfi.jpg"
     },
     {
       "name": "Fabio Caruso",
       "description": "Specialista dei circuiti cittadini, è capace di adattarsi rapidamente alle nuove piste.",
-      "team": "LCR Honda ⚪🔴"
+      "team": "LCR Honda ⚪🔴",
+      "image": "fabio_caruso.jpg"
     },
     {
       "name": "Enrico Bellini",
       "description": "Dotato di grande esperienza, è un veterano della MotoGP con una guida metodica e costante.",
-      "team": "Mooney VR46 Racing Team 🟡⚫"
+      "team": "Mooney VR46 Racing Team 🟡⚫",
+      "image": "enrico_bellini.jpg"
     },
     {
       "name": "Tommaso Vitale",
       "description": "Giovane promessa del motociclismo italiano, ha un talento naturale per le traiettorie perfette.",
-      "team": "Tech3 GasGas Factory Racing 🔴⚪"
+      "team": "Tech3 GasGas Factory Racing 🔴⚪",
+      "image": "tommaso_vitale.jpg"
     },
     {
       "name": "Gianluca Moretti",
       "description": "Pilota dallo stile aggressivo, eccelle nelle partenze e nelle prime fasi di gara.",
-      "team": "Ducati Pramac Racing 🔴💜"
-    },
-    {
-      "name": "Emanuele Fabbri",
-      "description": "Molto meticoloso nella messa a punto della moto, riesce sempre a trovare il miglior assetto.",
-      "team": "Aprilia Racing ⚫🔴"
-    },
-    {
-      "name": "Antonio Barzaghi",
-      "description": "Carismatico e determinato, è un grande motivatore per il suo team e lotta sempre per il podio.",
-      "team": "Ducati Lenovo Team 🏁🔴"
-    },
-    {
-      "name": "Simone Casadei",
-      "description": "Velocissimo in qualifica, spesso parte davanti e imposta un ritmo altissimo nelle prime fasi di gara.",
-      "team": "Gresini Racing MotoGP 🔵⚪"
-    },
-    {
-      "name": "Francesco Pellegrini",
-      "description": "Ha un talento speciale sul bagnato, dove riesce a fare la differenza rispetto agli avversari.",
-      "team": "Mooney VR46 Racing Team 🟡⚫"
-    },
-    {
-      "name": "Nicola Ravelli",
-      "description": "Pilota molto strategico, capace di gestire al meglio le gomme e di attaccare nei momenti giusti.",
-      "team": "Yamaha Monster Energy 🔵⚫"
-    },
-    {
-      "name": "Daniele Sforza",
-      "description": "Un outsider che ha stupito tutti con risultati sorprendenti e una crescita costante nel tempo.",
-      "team": "KTM Red Bull Factory Racing 🟠🔵"
-    },
-    {
-      "name": "Claudio Neri",
-      "description": "Abile nel corpo a corpo, non si tira mai indietro nei duelli ravvicinati.",
-      "team": "LCR Honda ⚪🔴"
-    },
-    {
-      "name": "Andrea Mancuso",
-      "description": "Pilota molto solido e regolare, è spesso tra i primi dieci e punta sempre a migliorarsi.",
-      "team": "Tech3 GasGas Factory Racing 🔴⚪"
-    },
-    {
-      "name": "Stefano Vignali",
-      "description": "Esperto nello sviluppo della moto, lavora a stretto contatto con gli ingegneri per ottimizzare le prestazioni.",
-      "team": "Honda Repsol Team 🔴⚪"
-    },
-    {
-      "name": "Cristian Zanetti",
-      "description": "Ama le piste veloci ed è specialista nei sorpassi in rettilineo grazie alla sua precisione in uscita di curva.",
-      "team": "Yamaha RNF Racing 🔵⚪"
-    },
-    {
-      "name": "Roberto Marchesi",
-      "description": "Giocatore di squadra, aiuta il suo team nella raccolta dati e nella strategia di gara.",
-      "team": "Honda Repsol Team 🔴⚪"
-    },
-    {
-      "name": "Gabriele Fontana",
-      "description": "Uno showman in pista e fuori, amatissimo dai tifosi per il suo stile spettacolare e il suo carattere estroverso.",
-      "team": "Yamaha RNF Racing 🔵⚪"
+      "team": "Ducati Pramac Racing 🔴🔍",
+      "image": "gianluca_moretti.jpg"
     }
   ]
 }

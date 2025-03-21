@@ -17,6 +17,7 @@ function generateRanking(ridersWithPoints) {
       name: rider.name,
       team: rider.team,
       totalPoints: rider.totalPoints,
+      image: rider.image,
     }));
 }
 
@@ -26,11 +27,12 @@ function displayRidersWithPoints(ridersWithPoints) {
   if (!container) return;
 
   container.innerHTML = "";
-  ridersWithPoints.forEach(({ name, team, points, totalPoints }) => {
+  ridersWithPoints.forEach(({ name, team, points, totalPoints, image }) => {
     const card = document.createElement("div");
     card.classList.add("card");
     card.innerHTML = `
             <h3>${name}</h3>
+            <img src="${image}" alt="${name}" class="rider-image" />
             <p><strong>Scuderia:</strong> ${team}</p>
             <p><strong>Punti per gara:</strong> ${points.join(", ")}</p>
             <p><strong>Punti totali:</strong> ${totalPoints}</p>
@@ -45,11 +47,12 @@ function displayRanking(ranking) {
   if (!container) return;
 
   container.innerHTML = "";
-  ranking.forEach(({ position, name, team, totalPoints }) => {
+  ranking.forEach(({ position, name, team, totalPoints, image }) => {
     const card = document.createElement("div");
     card.classList.add("card");
     card.innerHTML = `
             <h3>${position}. ${name}</h3>
+            <img src="${image}" alt="${name}" class="rider-image" />
             <p><strong>Scuderia:</strong> ${team}</p>
             <p><strong>Punti:</strong> ${totalPoints}</p>
         `;
@@ -68,6 +71,7 @@ function displayCalendar(tracks) {
     card.classList.add("card");
     card.innerHTML = `
             <h3>${name}</h3>
+            <img src="images/${name}.jpg" alt="${name}" class="track-image" />
             <p><strong>Location:</strong> ${location}</p>
             <p><strong>Data:</strong> ${date}</p>
         `;
