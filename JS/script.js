@@ -26,6 +26,10 @@ function displayRidersWithPoints(ridersWithPoints) {
   if (!container) return;
 
   container.innerHTML = "";
+
+  // Ordinare i piloti in ordine alfabetico per nome
+  ridersWithPoints.sort((a, b) => a.name.localeCompare(b.name));
+
   ridersWithPoints.forEach(({ name, team, points, totalPoints, image }) => {
     const card = document.createElement("div");
     card.classList.add("card");
@@ -65,6 +69,9 @@ function displayCalendar(tracks) {
   if (!container) return;
 
   container.innerHTML = "";
+
+  tracks.sort((a, b) => a.name.localeCompare(b.name));
+
   tracks.forEach(({ name, location, date, image }) => {
     const card = document.createElement("div");
     card.classList.add("card");
@@ -78,10 +85,24 @@ function displayCalendar(tracks) {
   });
 }
 
-// Caricamento dei dati piloti
+// Funzione generica per caricare un file JSON
+function loadJSON(url) {
+  return fetch(url)
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(
+          `Errore nel caricamento del file JSON: ${response.status}`
+        );
+      }
+      return response.json();
+    })
+    .then((data) => data)
+    .catch((error) => console.error(error));
+}
+
+// Uso della funzione per caricare i dati dei piloti
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("JSON/piloti.json")
-    .then((response) => response.json())
+  loadJSON("JSON/piloti.json")
     .then((data) => {
       const ridersWithPoints = generateRacePoints(data.riders),
         ranking = generateRanking(ridersWithPoints);
@@ -92,9 +113,8 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error("Errore nel caricamento dei dati piloti:", error)
     );
 
-  // Caricamento del calendario gare
-  fetch("JSON/calendario.json")
-    .then((response) => response.json())
+  // Uso della funzione per caricare il calendario delle gare
+  loadJSON("JSON/calendario.json")
     .then((data) => displayCalendar(data.tracks))
     .catch((error) =>
       console.error("Errore nel caricamento del calendario:", error)
