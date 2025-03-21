@@ -1,0 +1,40 @@
+{
+  "tracks": [
+    { "name": "Mugello", "location": "Italia", "date": "28 Aprile 2025" },
+    { "name": "Misano", "location": "Italia", "date": "15 Settembre 2025" },
+    { "name": "Jerez", "location": "Spagna", "date": "5 Maggio 2025" },
+    { "name": "Le Mans", "location": "Francia", "date": "19 Maggio 2025" },
+    { "name": "Catalunya", "location": "Spagna", "date": "2 Giugno 2025" },
+    { "name": "Sachsenring", "location": "Germania", "date": "16 Giugno 2025" },
+    { "name": "Assen", "location": "Olanda", "date": "30 Giugno 2025" },
+    { "name": "Silverstone", "location": "UK", "date": "14 Luglio 2025" },
+    {
+      "name": "Red Bull Ring",
+      "location": "Austria",
+      "date": "28 Luglio 2025"
+    },
+    { "name": "Aragon", "location": "Spagna", "date": "11 Agosto 2025" },
+    { "name": "San Marino", "location": "Italia", "date": "25 Agosto 2025" },
+    { "name": "Motegi", "location": "Giappone", "date": "8 Settembre 2025" },
+    {
+      "name": "Buriram",
+      "location": "Thailandia",
+      "date": "22 Settembre 2025"
+    },
+    {
+      "name": "Phillip Island",
+      "location": "Australia",
+      "date": "6 Ottobre 2025"
+    },
+    { "name": "Sepang", "location": "Malesia", "date": "20 Ottobre 2025" },
+    { "name": "Losail", "location": "Qatar", "date": "3 Novembre 2025" },
+    { "name": "Valencia", "location": "Spagna", "date": "17 Novembre 2025" },
+    { "name": "Portimao", "location": "Portogallo", "date": "1 Dicembre 2025" },
+    {
+      "name": "Mandilika",
+      "location": "Indonesia",
+      "date": "15 Dicembre 2025"
+    },
+    { "name": "Austin", "location": "USA", "date": "29 Dicembre 2025" }
+  ]
+}
