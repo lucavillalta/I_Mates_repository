@@ -9,8 +9,8 @@ function generateRacePoints(riders, races = 10) {
 }
 
 // Funzione per generare la classifica ordinata
-function generateRanking(ridersWithPoints) {
-  return ridersWithPoints
+const generateRanking = (ridersWithPoints) =>
+  ridersWithPoints
     .sort((a, b) => b.totalPoints - a.totalPoints)
     .map((rider, index) => ({
       position: index + 1,
@@ -19,7 +19,6 @@ function generateRanking(ridersWithPoints) {
       totalPoints: rider.totalPoints,
       image: rider.image,
     }));
-}
 
 // Funzione per mostrare le card dei piloti con i punteggi
 function displayRidersWithPoints(ridersWithPoints) {
@@ -32,7 +31,7 @@ function displayRidersWithPoints(ridersWithPoints) {
     card.classList.add("card");
     card.innerHTML = `
             <h3>${name}</h3>
-            <img src="${image}" alt="${name}" class="rider-image" />
+            <img src="Img/Piloti/${image}" alt="${name}" class="rider-image" />
             <p><strong>Scuderia:</strong> ${team}</p>
             <p><strong>Punti per gara:</strong> ${points.join(", ")}</p>
             <p><strong>Punti totali:</strong> ${totalPoints}</p>
@@ -52,7 +51,7 @@ function displayRanking(ranking) {
     card.classList.add("card");
     card.innerHTML = `
             <h3>${position}. ${name}</h3>
-            <img src="${image}" alt="${name}" class="rider-image" />
+            <img src="Img/Piloti/${image}" alt="${name}" class="rider-image" />
             <p><strong>Scuderia:</strong> ${team}</p>
             <p><strong>Punti:</strong> ${totalPoints}</p>
         `;
@@ -60,18 +59,18 @@ function displayRanking(ranking) {
   });
 }
 
-// Funzione per mostrare il calendario delle gare
+// Funzione per mostrare il calendario delle gare// Funzione per mostrare il calendario delle gare
 function displayCalendar(tracks) {
   const container = document.getElementById("calendar-cards");
   if (!container) return;
 
   container.innerHTML = "";
-  tracks.forEach(({ name, location, date }) => {
+  tracks.forEach(({ name, location, date, image }) => {
     const card = document.createElement("div");
     card.classList.add("card");
     card.innerHTML = `
             <h3>${name}</h3>
-            <img src="${name}.jpg" alt="${name}" class="track-image" />
+            <img src="Img/Piste/${image}" alt="${name}" class="track-image" />
             <p><strong>Location:</strong> ${location}</p>
             <p><strong>Data:</strong> ${date}</p>
         `;
