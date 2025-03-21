@@ -69,6 +69,9 @@ function displayCalendar(tracks) {
   if (!container) return;
 
   container.innerHTML = "";
+
+  tracks.sort((a, b) => a.name.localeCompare(b.name));
+
   tracks.forEach(({ name, location, date, image }) => {
     const card = document.createElement("div");
     card.classList.add("card");
