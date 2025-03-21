@@ -4,85 +4,85 @@
       "name": "Mugello",
       "location": "Italia",
       "date": "28 Aprile 2025",
-      "image": "mugello.jpg"
+      "image": "mugello.png"
     },
     {
       "name": "Misano",
       "location": "Italia",
       "date": "15 Settembre 2025",
-      "image": "misano.jpg"
+      "image": "misano.png"
     },
     {
       "name": "Jerez",
       "location": "Spagna",
       "date": "5 Maggio 2025",
-      "image": "jerez.jpg"
+      "image": "jerez.png"
     },
     {
       "name": "Le Mans",
       "location": "Francia",
       "date": "19 Maggio 2025",
-      "image": "lemans.jpg"
+      "image": "lemans.png"
     },
     {
       "name": "Catalunya",
       "location": "Spagna",
       "date": "2 Giugno 2025",
-      "image": "catalunya.jpg"
+      "image": "catalunya.png"
     },
     {
       "name": "Sachsenring",
       "location": "Germania",
       "date": "16 Giugno 2025",
-      "image": "sachsenring.jpg"
+      "image": "sachsenring.png"
     },
     {
       "name": "Assen",
       "location": "Olanda",
       "date": "30 Giugno 2025",
-      "image": "assen.jpg"
+      "image": "assen.png"
     },
     {
       "name": "Silverstone",
       "location": "UK",
       "date": "14 Luglio 2025",
-      "image": "silverstone.jpg"
+      "image": "silverstone.png"
     },
     {
       "name": "Red Bull Ring",
       "location": "Austria",
       "date": "28 Luglio 2025",
-      "image": "redbullring.jpg"
+      "image": "redbullring.png"
     },
     {
       "name": "Aragon",
       "location": "Spagna",
       "date": "11 Agosto 2025",
-      "image": "aragon.jpg"
+      "image": "aragon.png"
     },
     {
       "name": "San Marino",
       "location": "Italia",
       "date": "25 Agosto 2025",
-      "image": "sanmarino.jpg"
+      "image": "sanmarino.png"
     },
     {
       "name": "Motegi",
       "location": "Giappone",
       "date": "8 Settembre 2025",
-      "image": "motegi.jpg"
+      "image": "motegi.png"
     },
     {
       "name": "Buriram",
       "location": "Thailandia",
       "date": "22 Settembre 2025",
-      "image": "buriram.jpg"
+      "image": "buriram.png"
     },
     {
       "name": "Phillip Island",
       "location": "Australia",
       "date": "6 Ottobre 2025",
-      "image": "phillipisland.jpg"
+      "image": "phillipisland.png"
     },
     {
       "name": "Sepang",
@@ -94,31 +94,31 @@
       "name": "Losail",
       "location": "Qatar",
       "date": "3 Novembre 2025",
-      "image": "losail.jpg"
+      "image": "losail.png"
     },
     {
       "name": "Valencia",
       "location": "Spagna",
       "date": "17 Novembre 2025",
-      "image": "valencia.jpg"
+      "image": "valencia.png"
     },
     {
       "name": "Portimao",
       "location": "Portogallo",
       "date": "1 Dicembre 2025",
-      "image": "portimao.jpg"
+      "image": "portimao.png"
     },
     {
       "name": "Mandilika",
       "location": "Indonesia",
       "date": "15 Dicembre 2025",
-      "image": "mandilika.jpg"
+      "image": "mandilika.png"
     },
     {
       "name": "Austin",
       "location": "USA",
       "date": "29 Dicembre 2025",
-      "image": "austin.jpg"
+      "image": "austin.png"
     }
   ]
 }
