@@ -1,0 +1,64 @@
+{
+  "riders": [
+    {
+      "name": "Matteo Bianchi",
+      "description": "Pilota aggressivo e talentuoso, noto per il suo stile di guida spigoloso e la sua grande capacità nei sorpassi.",
+      "team": "Ducati Lenovo Team 🏁🔴",
+      "image": "matteo_bianchi.jpg"
+    },
+    {
+      "name": "Alessandro Rinaldi",
+      "description": "Cresciuto sulle minimoto, ha uno stile fluido e una guida molto pulita. Specialista delle curve veloci.",
+      "team": "Aprilia Racing ⚫🔴",
+      "image": "alessandro_rinaldi.jpg"
+    },
+    {
+      "name": "Lorenzo De Santis",
+      "description": "Pilota dal carattere forte, ama le battaglie in pista ed è noto per la sua resistenza nelle gare lunghe.",
+      "team": "Yamaha Monster Energy 🔵⚫",
+      "image": "lorenzo_de_santis.jpg"
+    },
+    {
+      "name": "Riccardo Ferrara",
+      "description": "Un talento emergente che ha impressionato tutti nelle categorie minori con il suo controllo in condizioni di pioggia.",
+      "team": "Ducati Pramac Racing 🔴🔍",
+      "image": "riccardo_ferrara.jpg"
+    },
+    {
+      "name": "Davide Montanari",
+      "description": "Tecnico e preciso, studia ogni dettaglio della moto per ottenere il massimo delle prestazioni.",
+      "team": "KTM Red Bull Factory Racing 🥚🔵",
+      "image": "davide_montanari.jpg"
+    },
+    {
+      "name": "Marco Ghisolfi",
+      "description": "Pilota molto spettacolare, ama le staccate al limite e non ha paura di rischiare per guadagnare posizioni.",
+      "team": "Gresini Racing MotoGP 🔵⚪",
+      "image": "marco_ghisolfi.jpg"
+    },
+    {
+      "name": "Fabio Caruso",
+      "description": "Specialista dei circuiti cittadini, è capace di adattarsi rapidamente alle nuove piste.",
+      "team": "LCR Honda ⚪🔴",
+      "image": "fabio_caruso.jpg"
+    },
+    {
+      "name": "Enrico Bellini",
+      "description": "Dotato di grande esperienza, è un veterano della MotoGP con una guida metodica e costante.",
+      "team": "Mooney VR46 Racing Team 🟡⚫",
+      "image": "enrico_bellini.jpg"
+    },
+    {
+      "name": "Tommaso Vitale",
+      "description": "Giovane promessa del motociclismo italiano, ha un talento naturale per le traiettorie perfette.",
+      "team": "Trackhouse MotoGP Team 🟡🔵",
+      "image": "tommaso_vitale.jpg"
+    },
+    {
+      "name": "Gianluca Moretti",
+      "description": "Pilota dallo stile aggressivo, eccelle nelle partenze e nelle prime fasi di gara.",
+      "team": "Ducati Pramac Racing 🔴🔍",
+      "image": "gianluca_moretti.jpg"
+    }
+  ]
+}
