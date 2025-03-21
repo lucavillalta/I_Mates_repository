@@ -77,7 +77,7 @@ function displayCalendar(tracks) {
 
 // Caricamento dei dati piloti
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("piloti.json")
+  fetch("JSON/piloti.json")
     .then((response) => response.json())
     .then((data) => {
       const ridersWithPoints = generateRacePoints(data.riders),
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
     );
 
   // Caricamento del calendario gare
-  fetch("calendario.json")
+  fetch("JSON/calendario.json")
     .then((response) => response.json())
     .then((data) => displayCalendar(data.tracks))
     .catch((error) =>
